@@ -1,0 +1,160 @@
+.navigation-container {
+  position: fixed;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  background-color: #eb4d4b;
+}
+
+.navigation-button {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  right: 10%;
+  outline: none;
+  border: none;
+  background-color: #e64f4c;
+  font-size: 20px;
+}
+
+input {
+  outline: none;
+  background-color: #fcfcfc;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.searchbar {
+  width: 700px;
+  height: 50px;
+  border: 2px solid rgb(46, 46, 46);
+}
+
+.searchbar:focus {
+  border: 2px solid #e64f4c;
+}
+
+.searchbar-button {
+  margin-left: 50px;
+  outline: none;
+  text-align: center;
+  border: 2px solid rgb(46, 46, 46);
+  background-color: #fcfcfc;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ff7979;
+  color: #fcfcfc;
+}
+
+button:focus {
+  cursor: pointer;
+}
+
+img {
+  clip-path: polygon(65% 0, 100% 0%, 75% 100%, 40% 100%);
+  position: absolute;
+  opacity: 0.4;
+  z-index: 0;
+  height: 500px;
+}
+
+.search-container {
+  background-image: url("https://cdn.karaca.com.de/sys-master/product/h42/h55/9239681794078");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+  background-color: #f58f8f9c;
+  margin-top: 50px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+table {
+  width: 90%;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #fcfcfc;
+  border-top: 10px solid #e64f4c;
+}
+
+th,
+td {
+  text-align: center;
+  width: 50px;
+  height: 10px;
+  padding: 20px;
+  border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+th {
+  font-size: 40px;
+}
+
+td {
+  color: rgb(46, 46, 46);
+}
+
+.createprofile-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.createprofile-menu {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+  border-top: 10px solid #e64f4c;
+}
+
+.createprofile-menu-container {
+  font-size: 30px;
+  width: 50%;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.createprofile-attribute {
+  width: 80%;
+  margin: 0 50px;
+  border-bottom: 1px solid rgb(46, 46, 46);
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.createprofile-button-container {
+  display: flex;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  justify-content: right;
+}
